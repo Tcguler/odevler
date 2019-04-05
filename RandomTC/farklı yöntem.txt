@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace tcnouret
+{
+    public partial class TcKimlik : Form
+    {
+        public TcKimlik()
+        {
+            InitializeComponent();
+        }
+
+        private Random sayi = new Random();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            textBox1.Clear();
+
+            for (int j = 0; j < sayi.Value; j++)
+            {
+                int[] dizi = new int[9];
+
+                for (int i = 0; i < 9; i++)
+                {
+                    dizi[i] = sayi.Next(0, 10);
+
+                    if (dizi[0] == 0)
+                        i--;
+                }
+
+                string tcKimlik = dizi.Aggregate("", (current, t) => current + t);
+
+                int tekBasamakToplam = 0, ciftBasamakToplam = 0, tekilHesap;
+
+                for (int i = 0; i < 9; i += 2)
+                    tekBasamakToplam += int.Parse(tcKimlik.Substring(i, 1));
+
+                for (int i = 1; i < 9; i += 2)
+                    ciftBasamakToplam += int.Parse(tcKimlik.Substring(i, 1));
+
+                tekilHesap = ((tekBasamakToplam * 7) - ciftBasamakToplam) % 10;
+                tcKimlik += Convert.ToInt32(tekilHesap);
+
+                int toplam = 0;
+
+                for (int i = 0; i < 10; i++)
+                {
+                    byte toplanacakSayi = byte.Parse(tcKimlik.Substring(i, 1));
+                    toplam += toplanacakSayi;
+                    toplam %= 10;
+                }
+
+                tcKimlik += Convert.ToInt32(toplam);
+
+                listBox1.Items.Add(tcKimlik);
+                
+            }
+        }
+
+        private void listBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = (string)listBox1.SelectedItem;
+        }
+
+        private void TcKimlik_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

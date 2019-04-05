@@ -1,0 +1,16 @@
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\bin\Debug\RandomTC.exe
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\bin\Debug\RandomTC.pdb
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\obj\x86\Debug\RandomTC.Form1.resources
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\obj\x86\Debug\RandomTC.Properties.Resources.resources
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\obj\x86\Debug\RandomTC.csproj.GenerateResource.Cache
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\obj\x86\Debug\RandomTC.exe
+C:\Users\Simge Çoban\Documents\Visual Studio 2010\Projects\RandomTC\RandomTC\obj\x86\Debug\RandomTC.pdb
+C:\Users\Simge Çoban\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.exe
+C:\Users\Simge Çoban\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.pdb
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.exe
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.pdb
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\bin\Debug\RandomTC.exe
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\bin\Debug\RandomTC.pdb
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.Form1.resources
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.Properties.Resources.resources
+C:\Users\Tunacan-Tuğçe\Desktop\RandomTC\RandomTC\obj\x86\Debug\RandomTC.csproj.GenerateResource.Cache

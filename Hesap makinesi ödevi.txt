@@ -1,0 +1,93 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace hesapmakinesi
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        
+        int topla(int a, int b)
+    {
+        return (a + b);
+        
+    }
+        int cýkar(int a, int b)
+        {
+            return (a - b);
+        }
+
+        int carpma(int a, int b)
+        {
+            return (a * b);
+        }
+
+        int bolme(int a, int b)
+        {
+            return (a / b);
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a, b;
+            a = Convert.ToInt32(textBox1.Text);
+            b = Convert.ToInt32(textBox2.Text);
+            label3.Text = topla(a, b).ToString();
+
+        }   
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a, b;
+            a = Convert.ToInt32(textBox1.Text);
+            b = Convert.ToInt32(textBox2.Text);
+            label3.Text = cýkar(a, b).ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int a, b;
+            a = Convert.ToInt32(textBox1.Text);
+            b = Convert.ToInt32(textBox2.Text);
+            label3.Text = carpma(a, b).ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a, b;
+            a = Convert.ToInt32(textBox1.Text);
+            b = Convert.ToInt32(textBox2.Text);
+            label3.Text = bolme(a, b).ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int a, b, c;
+            a = Convert.ToInt32(textBox1.Text);
+            b = Convert.ToInt32(textBox2.Text);
+            c = carpma(a, b);
+            label3.Text = carpma(c, b).ToString();
+
+        }
+    }
+}
+
+
+Tunacan Güler
+Örgün
+60170000031
+GörselProgramlama1
