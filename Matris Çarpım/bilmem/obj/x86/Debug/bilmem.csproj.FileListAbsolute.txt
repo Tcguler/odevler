@@ -1,0 +1,10 @@
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.Form1.resources
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.Properties.Resources.resources
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.csproj.GenerateResource.Cache
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\bin\Debug\bilmem.exe
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\bin\Debug\bilmem.pdb
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.exe
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.pdb
+C:\Users\Tunacan-Tuğçe\Desktop\bilmem\bilmem\obj\x86\Debug\bilmem.csprojResolveAssemblyReference.cache
+E:\Tuna\Yeni klasör\2019 2.Dönem\GÖRSEL 1\Gp1 3 mayıs\Matris toplam\bilmem\obj\x86\Debug\bilmem.exe
+E:\Tuna\Yeni klasör\2019 2.Dönem\GÖRSEL 1\Gp1 3 mayıs\Matris toplam\bilmem\obj\x86\Debug\bilmem.pdb
