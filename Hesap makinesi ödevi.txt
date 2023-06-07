@@ -21,7 +21,7 @@ namespace hesapmakinesi
         return (a + b);
         
     }
-        int cýkar(int a, int b)
+        int cÃ½kar(int a, int b)
         {
             return (a - b);
         }
@@ -55,7 +55,7 @@ namespace hesapmakinesi
             int a, b;
             a = Convert.ToInt32(textBox1.Text);
             b = Convert.ToInt32(textBox2.Text);
-            label3.Text = cýkar(a, b).ToString();
+            label3.Text = cÃ½kar(a, b).ToString();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -86,8 +86,3 @@ namespace hesapmakinesi
     }
 }
 
-
-Tunacan Güler
-Örgün
-60170000031
-GörselProgramlama1
